@@ -1,0 +1,32 @@
+<header class="w-full overflow-hidden py-2">
+  <nav class="container-xl mx-auto flex justify-between items-center px-4">
+    <div class="left-logo uppercase font-bold text-2xl font-mono text-black">
+      portfolio
+    </div>
+    <div class="right-nav">
+      <ul class="flex items-center capitalize">
+        @for(nav of navItems; track nav){
+        <li
+          class="px-3 py-1.5 bg-cardBg hover:bg-cardBtn rounded-sm hover:cursor-pointer"
+          [routerLink]="nav.routerLink"
+        >
+          {{ nav.label }}
+        </li>
+        }
+
+        <li class="btns flex gap-2">
+          <button
+            class="px-4 py-1.5 rounded bg-cardBg hover:bg-cardBtn transition-all duration-300 ease-in-out"
+          >
+            Login
+          </button>
+          <button
+            class="px-4 py-1.5 rounded bg-black text-white hover:bg-black transition-all duration-300 ease-in-out"
+          >
+            Register
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
