@@ -1,1 +1,0 @@
-import{Ha as a,Ia as r,La as i,Oa as l,W as n}from"./chunk-LGJ7LFG4.js";var m=(()=>{let e=class e{};e.\u0275fac=function(o){return new(o||e)},e.\u0275cmp=n({type:e,selectors:[["app-collaborate"]],standalone:!0,features:[l],decls:2,vars:0,template:function(o,c){o&1&&(a(0,"p"),i(1,"collaborate works!"),r())}});let t=e;return t})();export{m as CollaborateComponent};

@@ -6,6 +6,6 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './full-page.component.html',
-  styleUrl: './full-page.component.scss',
+  styleUrl: './full-page.component.css',
 })
 export class FullPageComponent {}
