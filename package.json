@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "gh-build": "ng build --base-href 'https://thesunshell.github.io/portfolio'",
-    "gh-deploy": "npx angular-cli-ghpages --dir=dist/portfolio"
+    "gh-build": "ng build --base-href --output-path docs 'portfolio'",
+    "gh-deploy": "npx angular-cli-ghpages --dir docs"
   },
   "private": true,
   "dependencies": {
